@@ -1,0 +1,38 @@
+token: #INSERT TOKEN FOR A DISCORD BOT HERE
+admins:
+- #Discord ID of admin 1
+- #Discord ID of admin 2
+main_channel: #Channel ID where you want main messages sent (i.e. world switching)
+role: #Role ID for players
+players:
+- 0: #Name of player, just for ease of working with this stuff. Can have up to 99 players
+  name: #Name of player
+  pity: #Typically start with 0, but the bot automatically adjusts
+  id: #Discord user ID
+- 1: Example
+  name: Example
+  pity: 0
+  id: 12345
+- 2: Duo
+  name: Duo
+  pity: 0
+  id: 0000000000000
+turn_length: #Number of days in a turn, surround with '' (Ex: '4')
+current_day: 0
+timer: true
+change_mode: #upload or server, depending on which you want
+next_change: <t:1691874540:R>
+player_count: #Number of players you want at a time
+recharge_turns: #Number of turns after someone had the world to set their pity to 0 (preventing repeats)
+unavailable_players: []
+messaged_player:
+-
+current_player:
+-
+version: 2.1.3
+drive_link: #Insert the link to whatever file sharing service you are using here
+server_ip: #Insert the ip to a server here if you are using that
+upload_anti_spam: false
+timer_anti_spam: false
+past_players:
+-
